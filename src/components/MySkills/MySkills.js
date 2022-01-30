@@ -23,7 +23,7 @@ export const MySkills = () => {
     setMainSkills(mainSkillsData);
     setSecondarySkills(secondarySkillsData);
   }, [mainSkills, secondarySkills]);
-  console.log(mainSkills);
+
   return (
     <div className="myskills-container">
       <div className="spacing-bar__long"></div>
@@ -32,7 +32,7 @@ export const MySkills = () => {
         <h4>I feel confident with:</h4>
         <ul className="stack-list">
           {mainSkills.map((skill) => (
-            <li>
+            <li key={skill.icon}>
               <img src={skill.icon} alt="" />
             </li>
           ))}
@@ -40,7 +40,7 @@ export const MySkills = () => {
         <h4>I have also worked with:</h4>
         <ul className="stack-list">
           {secondarySkills.map((skill) => (
-            <li>
+            <li key={skill.icon}>
               <img src={skill.icon} alt="" />
             </li>
           ))}

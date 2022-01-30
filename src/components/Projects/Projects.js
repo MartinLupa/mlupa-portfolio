@@ -72,7 +72,7 @@ export const Projects = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project) => (
-          <ProjectCard img={project.image} />
+          <ProjectCard key={project.repository} img={project.image} />
         ))}
       </div>
     </div>
