@@ -1,0 +1,12 @@
+@import "./styles/Variables.scss";
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  background-color: $alternate-background-color;
+  color: $dark-grey-text-color;
+}
+
+.app-container {
+  padding: 80px;
+}

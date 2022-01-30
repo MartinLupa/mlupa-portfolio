@@ -1,0 +1,66 @@
+.socialmediabar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.spacing-bar {
+  height: 3px;
+  width: 250px;
+  background-color: #363634;
+}
+
+.linkedin-icon {
+  margin-left: 20px;
+  color: #0e76a8;
+  font-size: 2rem;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.linkedin-icon:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #3684a8;
+  -webkit-transform: rotate(10deg) scale(2);
+          transform: rotate(10deg) scale(2);
+}
+
+.github-icon {
+  margin-left: 20px;
+  color: #5c5c5b;
+  font-size: 2rem;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.github-icon:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #696968;
+  -webkit-transform: rotate(10deg) scale(2);
+          transform: rotate(10deg) scale(2);
+}
+
+.instagram-icon {
+  margin-left: 20px;
+  color: #f56040;
+  font-size: 2rem;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.instagram-icon:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #f38d76;
+  -webkit-transform: rotate(10deg) scale(2);
+          transform: rotate(10deg) scale(2);
+}
+/*# sourceMappingURL=SocialMediaBar.css.map */

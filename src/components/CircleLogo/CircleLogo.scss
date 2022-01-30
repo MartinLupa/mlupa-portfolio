@@ -1,0 +1,21 @@
+@import "../../styles//Variables.scss";
+
+.circle-logo {
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: $alternate-background-color;
+  background-color: $dark-grey-text-color;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
