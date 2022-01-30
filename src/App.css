@@ -8,4 +8,16 @@ body {
 .app-container {
   padding: 80px;
 }
+
+.spacing-bar__short {
+  height: 3px;
+  width: 250px;
+  background-color: #363634;
+}
+
+.spacing-bar__long {
+  height: 3px;
+  width: 100%;
+  background-color: #363634;
+}
 /*# sourceMappingURL=App.css.map */
