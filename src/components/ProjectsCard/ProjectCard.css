@@ -1,0 +1,12 @@
+.card-container {
+  margin: 20px;
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+}
+
+.card-container img {
+  height: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=ProjectCard.css.map */
