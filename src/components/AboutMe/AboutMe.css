@@ -12,6 +12,10 @@
   text-align: justify;
 }
 
+.aboutme-container h2 {
+  margin-top: 20px;
+}
+
 .aboutme-description {
   margin: 0;
   display: -webkit-box;

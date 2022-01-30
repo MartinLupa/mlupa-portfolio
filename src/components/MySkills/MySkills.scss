@@ -1,0 +1,22 @@
+.myskills-container {
+  height: 100vh;
+}
+.skills-lists {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills-icon {
+  width: 100px;
+}
+
+.stack-list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 50px;
+  li {
+    margin-left: 40px;
+  }
+}

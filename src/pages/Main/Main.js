@@ -1,6 +1,7 @@
 import React from "react";
 import { AboutMe } from "../../components/AboutMe/AboutMe";
 import { CircleLogo } from "../../components/CircleLogo/CircleLogo";
+import { MySkills } from "../../components/MySkills/MySkills";
 import { Presentation } from "../../components/Presentation/Presentation";
 import { SocialMediaBar } from "../../components/SocialMediaBar/SocialMediaBar";
 import "./Main.css";
@@ -14,6 +15,7 @@ export const Main = () => {
         <Presentation />
       </div>
       <AboutMe />
+      <MySkills />
     </>
   );
 };

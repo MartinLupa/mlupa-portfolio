@@ -52,9 +52,9 @@ export const ImagesCarousel = () => {
           activeIndex={index}
           onSelect={handleSelect}
         >
-          {data.map((slide, i) => {
+          {data.map((slide) => {
             return (
-              <Carousel.Item>
+              <Carousel.Item key={slide.description}>
                 <img
                   className="carousel-img"
                   src={slide.image}

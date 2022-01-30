@@ -4,6 +4,7 @@ export const AboutMe = () => {
   return (
     <>
       <div className="spacing-bar__long"></div>
+      <h2>About Me</h2>
       <div className="aboutme-container">
         <p className="aboutme-description">
           Hi! My name is Martín and I am originally from Argentina, but had been
