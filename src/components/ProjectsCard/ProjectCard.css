@@ -1,13 +1,52 @@
-.card-container {
+.card-img {
+  position: relative;
   margin: 20px;
   border: 1px solid black;
   height: 300px;
   width: 600px;
-  z-index: 1;
 }
 
-.card-container img {
+.card-img img {
   height: 100%;
   width: 100%;
+}
+
+.card-content {
+  color: #dfdfdf;
+  width: 600px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  margin: 20px;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.card-content .card-description {
+  max-width: 35ch;
+  font-size: 0.8rem;
+}
+
+.card-content .card-tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 500px;
 }
 /*# sourceMappingURL=ProjectCard.css.map */

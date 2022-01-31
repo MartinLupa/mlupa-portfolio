@@ -1,11 +1,37 @@
-.card-container {
+@import "../../styles/Variables.scss";
+
+.card-img {
+  position: relative;
   margin: 20px;
   border: 1px solid black;
   height: 300px;
   width: 600px;
-  z-index: 1;
   img {
     height: 100%;
     width: 100%;
+  }
+}
+
+.card-content {
+  color: $main-text-color;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 20px;
+  z-index: 9999;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  backdrop-filter: blur(2px);
+  .card-description {
+    max-width: 35ch;
+    font-size: 0.8rem;
+  }
+  .card-tech {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
   }
 }

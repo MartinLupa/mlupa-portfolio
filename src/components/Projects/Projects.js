@@ -47,14 +47,14 @@ const projectsData = [
     title: "Score Keeper",
     image: require("./screenshots/scorekeeper.JPG"),
     description: "JavaScript based score keeper app.",
-    stack: ["JavaScript", "DOM", "Event listeners", "Bootstrap"],
+    stack: ["JavaScript", "DOM", "Bootstrap"],
     repository: "https://github.com/MartinLupa/js-projects-scorekeeper",
   },
   {
     title: "DrumKit",
     image: require("./screenshots/drumkit.JPG"),
     description: "JavaScript based score keeper app.",
-    stack: ["JavaScript", "DOM", "Event listeners"],
+    stack: ["JavaScript", "DOM"],
     repository: "https://github.com/MartinLupa/DrumKit-App-Deploy",
   },
 ];
@@ -72,7 +72,7 @@ export const Projects = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project) => (
-          <ProjectCard key={project.repository} img={project.image} />
+          <ProjectCard key={project.repository} {...project} />
         ))}
       </div>
     </div>
