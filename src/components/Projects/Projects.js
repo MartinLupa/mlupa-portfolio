@@ -19,6 +19,7 @@ const projectsData = [
       "Mongoose",
     ],
     repository: "https://github.com/MartinLupa/mern-bikeville",
+    deploy: "",
   },
   {
     title: "Contacts List CRUD",
@@ -27,6 +28,7 @@ const projectsData = [
       "React CRUD, use of protected routes. Made as part of a technical test.",
     stack: ["React", "Router V6", "Vanilla CSS"],
     repository: "https://github.com/MartinLupa/react-contacts-list-crud",
+    deploy: "https://contacts-list-react-crud.vercel.app/login",
   },
   {
     title: "Movies World",
@@ -35,6 +37,7 @@ const projectsData = [
       "Movie search responsive React SPA, with watchlist and search functionalities.",
     stack: ["React", "Router V6", "APIs"],
     repository: "https://github.com/MartinLupa/react-spa-movies-world",
+    deploy: "https://react-spa-movies-world.vercel.app/",
   },
   {
     title: "Login and Dashboard",
@@ -42,6 +45,7 @@ const projectsData = [
     description: "Login and Dashboard design.",
     stack: ["HTML", "CSS"],
     repository: "https://github.com/MartinLupa/html-css-project",
+    deploy: "",
   },
   {
     title: "Score Keeper",
@@ -49,6 +53,7 @@ const projectsData = [
     description: "JavaScript based score keeper app.",
     stack: ["JavaScript", "DOM", "Bootstrap"],
     repository: "https://github.com/MartinLupa/js-projects-scorekeeper",
+    deploy: "",
   },
   {
     title: "DrumKit",
@@ -56,6 +61,7 @@ const projectsData = [
     description: "JavaScript based score keeper app.",
     stack: ["JavaScript", "DOM"],
     repository: "https://github.com/MartinLupa/DrumKit-App-Deploy",
+    deploy: "",
   },
 ];
 
