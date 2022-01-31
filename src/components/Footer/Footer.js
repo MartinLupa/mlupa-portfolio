@@ -13,7 +13,10 @@ export const Footer = () => {
         >
           <LinkedInIcon fontSize="small" />
         </a>
-        <a className="icon git-icon" href="https://www.github.com/MartinLupa">
+        <a
+          className="icon linkedin-icon"
+          href="https://www.github.com/MartinLupa"
+        >
           <GitHubIcon fontSize="small" />
         </a>
       </div>

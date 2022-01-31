@@ -21,11 +21,11 @@ export const ProjectCard = ({
             ))}
           </div>
           <a href={repository} target="_blank" rel="noreferrer">
-            View code
+            Repository
           </a>
           {deploy.length < 1 ? null : (
             <a href={deploy} target="_blank" rel="noreferrer">
-              View Deploy
+              Deploy
             </a>
           )}
         </div>
