@@ -19,7 +19,7 @@ const projectsData = [
       "JWT",
       "Mongoose",
     ],
-    repository: "https://github.com/MartinLupa/mern-bikeville",
+    repository: "https://github.com/MartinLupa/mern-bikeville-public",
     deploy: "",
   },
   {
