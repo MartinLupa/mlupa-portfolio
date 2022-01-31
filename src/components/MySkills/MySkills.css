@@ -1,4 +1,5 @@
 .myskills-container {
+  width: 100%;
   height: 100vh;
 }
 
@@ -19,19 +20,24 @@
           justify-content: center;
 }
 
-.skills-icon {
-  width: 100px;
-}
-
 .stack-list {
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
 .stack-list li {
   margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .stack-list img {
+    width: 60px;
+  }
 }
 /*# sourceMappingURL=MySkills.css.map */

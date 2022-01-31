@@ -23,3 +23,9 @@ body {
   width: 100%;
   background-color: $dark-grey-text-color;
 }
+
+@media only screen and (max-width: 600px) {
+  .app-container {
+    padding: 20px;
+  }
+}

@@ -7,7 +7,7 @@ const projectsData = [
     title: "Bikeville",
     image: require("./screenshots/bikeville.JPG"),
     description:
-      "Full stack E-commerce MERN App, use of Redux, integrated payment with Stripe. Admin user role that allows to perform full CRUD over products from the Dashboard.",
+      "Full stack E-commerce MERN App. Admin user role that allows to perform full CRUD over products from the Dashboard.",
     stack: [
       "React",
       "Redux",
@@ -43,7 +43,8 @@ const projectsData = [
   {
     title: "Login and Dashboard",
     image: require("./screenshots/html-css.JPG"),
-    description: "Login and Dashboard design.",
+    description:
+      "Login and Dashboard design as part of the full stack Bootcamp.",
     stack: ["HTML", "CSS"],
     repository: "https://github.com/MartinLupa/html-css-project",
     deploy: "https://martinlupa.github.io/html-css-project/dashboard.html",
@@ -51,7 +52,8 @@ const projectsData = [
   {
     title: "Score Keeper",
     image: require("./screenshots/scorekeeper.JPG"),
-    description: "JavaScript based score keeper app.",
+    description:
+      "JavaScript based score keeper app to practice DOM manipulation.",
     stack: ["JavaScript", "DOM", "Bootstrap"],
     repository: "https://github.com/MartinLupa/js-projects-scorekeeper",
     deploy: "https://martinlupa.github.io/js-projects-scorekeeper/",
@@ -59,7 +61,7 @@ const projectsData = [
   {
     title: "DrumKit",
     image: require("./screenshots/drumkit.JPG"),
-    description: "JavaScript based score keeper app.",
+    description: "JavaScript based drumkit app to practice DOM manipulation.",
     stack: ["JavaScript", "DOM"],
     repository: "https://github.com/MartinLupa/DrumKit-App-Deploy",
     deploy: "https://martinlupa.github.io/DrumKit-App-Deploy/",

@@ -1,4 +1,5 @@
 .myskills-container {
+  width: 100%;
   height: 100vh;
 }
 .skills-lists {
@@ -8,15 +9,20 @@
   align-items: center;
   justify-content: center;
 }
-.skills-icon {
-  width: 100px;
-}
 
 .stack-list {
+  padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
   li {
     margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .stack-list img {
+    width: 60px;
   }
 }

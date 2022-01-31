@@ -1,5 +1,9 @@
 @import "../../styles/Variables.scss";
-
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card-img {
   position: relative;
   margin: 20px;
@@ -43,5 +47,39 @@
   &:hover {
     transition: 0.3s;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .card-img {
+    width: 450px;
+    height: 250px;
+  }
+  .card-content {
+    width: 450px;
+    height: 250px;
+  }
+  .card-description {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  h4 {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-img {
+    width: 320px;
+    height: 200px;
+  }
+  .card-content {
+    padding: 10px;
+    width: 320px;
+    height: 200px;
   }
 }

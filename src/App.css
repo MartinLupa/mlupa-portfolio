@@ -21,4 +21,10 @@ body {
   width: 100%;
   background-color: #363634;
 }
+
+@media only screen and (max-width: 600px) {
+  .app-container {
+    padding: 20px;
+  }
+}
 /*# sourceMappingURL=App.css.map */
