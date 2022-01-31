@@ -3,7 +3,7 @@
 .card-img {
   position: relative;
   margin: 20px;
-  border: 1px solid black;
+  border: 1px solid rgb(194, 191, 191);
   height: 300px;
   width: 600px;
   img {
@@ -13,6 +13,7 @@
 }
 
 .card-content {
+  opacity: 0;
   color: $main-text-color;
   width: 600px;
   height: 300px;
@@ -24,15 +25,23 @@
   margin: 20px;
   z-index: 9999;
   background-color: rgba($color: #000000, $alpha: 0.7);
-
   backdrop-filter: blur(2px);
   .card-description {
-    max-width: 35ch;
+    max-width: 50ch;
     font-size: 0.8rem;
   }
   .card-tech {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
+  }
+  a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: $instagram;
+  }
+  &:hover {
+    transition: 0.3s;
+    opacity: 1;
   }
 }

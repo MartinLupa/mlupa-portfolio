@@ -10,7 +10,7 @@ export const ProjectCard = ({
   deploy,
 }) => {
   return (
-    <div>
+    <div className="card-container">
       <div className="card-content">
         <div>
           <h4>{title}</h4>

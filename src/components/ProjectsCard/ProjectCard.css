@@ -1,7 +1,7 @@
 .card-img {
   position: relative;
   margin: 20px;
-  border: 1px solid black;
+  border: 1px solid #c2bfbf;
   height: 300px;
   width: 600px;
 }
@@ -12,6 +12,7 @@
 }
 
 .card-content {
+  opacity: 0;
   color: #dfdfdf;
   width: 600px;
   height: 300px;
@@ -37,7 +38,7 @@
 }
 
 .card-content .card-description {
-  max-width: 35ch;
+  max-width: 50ch;
   font-size: 0.8rem;
 }
 
@@ -48,5 +49,17 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 400px;
+}
+
+.card-content a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #f56040;
+}
+
+.card-content:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
 }
 /*# sourceMappingURL=ProjectCard.css.map */

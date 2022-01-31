@@ -6,7 +6,8 @@ const projectsData = [
   {
     title: "Bikeville",
     image: require("./screenshots/bikeville.JPG"),
-    description: "Full stack E-commerce MERN App",
+    description:
+      "Full stack E-commerce MERN App, use of Redux, integrated payment with Stripe. Admin user role that allows to perform full CRUD over products from the Dashboard.",
     stack: [
       "React",
       "Redux",
@@ -45,7 +46,7 @@ const projectsData = [
     description: "Login and Dashboard design.",
     stack: ["HTML", "CSS"],
     repository: "https://github.com/MartinLupa/html-css-project",
-    deploy: "",
+    deploy: "https://martinlupa.github.io/html-css-project/dashboard.html",
   },
   {
     title: "Score Keeper",
@@ -53,7 +54,7 @@ const projectsData = [
     description: "JavaScript based score keeper app.",
     stack: ["JavaScript", "DOM", "Bootstrap"],
     repository: "https://github.com/MartinLupa/js-projects-scorekeeper",
-    deploy: "",
+    deploy: "https://martinlupa.github.io/js-projects-scorekeeper/",
   },
   {
     title: "DrumKit",
@@ -61,7 +62,7 @@ const projectsData = [
     description: "JavaScript based score keeper app.",
     stack: ["JavaScript", "DOM"],
     repository: "https://github.com/MartinLupa/DrumKit-App-Deploy",
-    deploy: "",
+    deploy: "https://martinlupa.github.io/DrumKit-App-Deploy/",
   },
 ];
 
