@@ -5,9 +5,9 @@ import "./ImagesCarousel.css";
 const data = [
   {
     image: require("./images/image1.jpg"),
-    caption: "Cycling Chapter 1 of 1000",
+    caption: "Cycling trip",
     description:
-      "That day I was cycling from Randers to Vejle in Denmark, amazing summer day of 2021.",
+      "Cycling from Randers to Vejle in Denmark, amazing summer day.",
   },
   {
     image: require("./images/image2.jpg"),
