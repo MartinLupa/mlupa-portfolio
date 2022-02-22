@@ -23,6 +23,15 @@ const projectsData = [
     deploy: "",
   },
   {
+    title: "Book Search App",
+    image: require("./screenshots/book-search-app.JPG"),
+    description:
+      "Book search App done for a technical test. Dynamic search with dropdown menu. Performance was taken into consideration with useDebounce.",
+    stack: ["React", "Redux", "useDebounce", "useRef", "Router V6", "API"],
+    repository: "https://github.com/MartinLupa/tax-scouts-technical-test",
+    deploy: "https://tax-scouts-technical-test.vercel.app/",
+  },
+  {
     title: "Contacts List CRUD",
     image: require("./screenshots/contact-list-crud.JPG"),
     description:
@@ -58,14 +67,14 @@ const projectsData = [
     repository: "https://github.com/MartinLupa/js-projects-scorekeeper",
     deploy: "https://martinlupa.github.io/js-projects-scorekeeper/",
   },
-  {
-    title: "DrumKit",
-    image: require("./screenshots/drumkit.JPG"),
-    description: "JavaScript based drumkit app to practice DOM manipulation.",
-    stack: ["JavaScript", "DOM"],
-    repository: "https://github.com/MartinLupa/DrumKit-App-Deploy",
-    deploy: "https://martinlupa.github.io/DrumKit-App-Deploy/",
-  },
+  // {
+  //   title: "DrumKit",
+  //   image: require("./screenshots/drumkit.JPG"),
+  //   description: "JavaScript based drumkit app to practice DOM manipulation.",
+  //   stack: ["JavaScript", "DOM"],
+  //   repository: "https://github.com/MartinLupa/DrumKit-App-Deploy",
+  //   deploy: "https://martinlupa.github.io/DrumKit-App-Deploy/",
+  // },
 ];
 
 export const Projects = () => {

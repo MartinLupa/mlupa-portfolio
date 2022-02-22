@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./MySkills.css";
+
 const mainSkillsData = [
   { tech: "HTML", icon: require("./icons/html.png") },
   { tech: "CSS", icon: require("./icons/css.png") },
@@ -10,6 +11,7 @@ const mainSkillsData = [
 ];
 
 const secondarySkillsData = [
+  { tech: "NextJS", icon: require("./icons/nextjs.png") },
   { tech: "node", icon: require("./icons/node.png") },
   { tech: "MySQL", icon: require("./icons/mysql.png") },
   { tech: "MongoDB", icon: require("./icons/mongodb.png") },

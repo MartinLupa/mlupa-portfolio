@@ -35,6 +35,11 @@
   margin-left: 40px;
 }
 
+.stack-list li img {
+  height: 96px;
+  width: 96px;
+}
+
 @media only screen and (max-width: 600px) {
   .stack-list img {
     width: 60px;
