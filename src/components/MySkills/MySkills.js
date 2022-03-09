@@ -15,6 +15,7 @@ const secondarySkillsData = [
   { tech: "node", icon: require("./icons/node.png") },
   { tech: "MySQL", icon: require("./icons/mysql.png") },
   { tech: "MongoDB", icon: require("./icons/mongodb.png") },
+  { tech: "Docker", icon: require("./icons/docker.png") },
 ];
 
 export const MySkills = () => {

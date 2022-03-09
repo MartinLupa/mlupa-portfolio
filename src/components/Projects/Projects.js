@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ProjectCard } from "../ProjectsCard/ProjectCard";
 import "./Projects.css";
 
+// https://iconscout.com/
 const projectsData = [
   {
     title: "Bikeville",
@@ -18,6 +19,8 @@ const projectsData = [
       "Yup",
       "JWT",
       "Mongoose",
+      "i18next",
+      "Docker",
     ],
     repository: "https://github.com/MartinLupa/mern-bikeville-public",
     deploy: "",
